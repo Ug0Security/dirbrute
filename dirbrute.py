@@ -9,8 +9,8 @@ import socket
 from time import time, localtime, strftime
 from statistics import mean
 
-from setting import USER_AGENT, CONN_TIMEOUT, READ_TIMEOUT, URL_TEST, IPV4_ONLY
-#from url_list import url_ltuple
+from setting import USER_AGENT, CONN_TIMEOUT, READ_TIMEOUT, IPV4_ONLY
+
 
 wordlist = sys.argv[2]
 mainsite = sys.argv[1]
