@@ -5,10 +5,6 @@ import logging
 import asyncio
 from aiohttp import ClientSession, TCPConnector, client_exceptions
 import socket
-# from aiohttp.resolver import AsyncResolver
-from time import time, localtime, strftime
-from statistics import mean
-
 from setting import USER_AGENT, CONN_TIMEOUT, READ_TIMEOUT, IPV4_ONLY
 
 
