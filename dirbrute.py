@@ -4,6 +4,7 @@ import sys
 import logging
 import asyncio
 from aiohttp import ClientSession, TCPConnector, client_exceptions
+from time import time, localtime, strftime
 import socket
 from setting import USER_AGENT, CONN_TIMEOUT, READ_TIMEOUT, IPV4_ONLY
 
